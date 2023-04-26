@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="popUP" customModule="musicPlayer" customModuleProvider="target">
+            <connections>
+                <outlet property="back1View" destination="BoR-lB-CmJ" id="FEU-Ec-Dao"/>
+                <outlet property="content1View" destination="JVw-ye-TWr" id="TyA-xJ-7rr"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgImg" translatesAutoresizingMaskIntoConstraints="NO" id="FUW-ah-O0z">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BoR-lB-CmJ">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                    <subviews>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pv4-g4-Jye">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4J4-CL-kUL">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="900"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JVw-ye-TWr">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="900"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dgz-X0-cWx">
+                                                    <rect key="frame" x="0.0" y="0.0" width="393" height="900"/>
+                                                    <string key="text">You were the shadow to my light
+Did you feel us?
+Another star
+You fade away
+Afraid our aim is out of sight
+Wanna see us
+Alight
+
+Where are you now?
+Where are you now?
+Where are you now?
+Was it all in my fantasy?
+Where are you now?
+Were you only imaginary?
+
+Where are you now?
+Atlantis
+Under the sea
+Under the sea
+Where are you now?
+Another dream
+The monster's running wild inside of me
+I'm faded
+I'm faded
+So lost, I'm faded
+I'm faded
+So lost, I'm faded
+
+These shallow waters never met what I needed
+I'm letting go a deeper dive
+Eternal silence of the sea, I'm breathing
+Alive
+
+Where are you now?
+Where are you now?
+Under the bright but faded lights
+You've set my heart on fire
+Where are you now?
+Where are you now?
+
+Where are you now?
+Atlantis
+Under the sea
+Under the sea
+Where are you now?
+Another dream
+The monster's running wild inside of me
+I'm faded
+I'm faded
+So lost, I'm faded
+I'm faded
+So lost, I'm faded
+</string>
+                                                    <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstItem="dgz-X0-cWx" firstAttribute="leading" secondItem="JVw-ye-TWr" secondAttribute="leading" id="LWl-Qz-HJt"/>
+                                                <constraint firstAttribute="trailing" secondItem="dgz-X0-cWx" secondAttribute="trailing" id="bJR-sH-bbo"/>
+                                                <constraint firstAttribute="bottom" secondItem="dgz-X0-cWx" secondAttribute="bottom" id="th1-Ii-GI6"/>
+                                                <constraint firstItem="dgz-X0-cWx" firstAttribute="top" secondItem="JVw-ye-TWr" secondAttribute="top" id="twl-jG-wTR"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="JVw-ye-TWr" secondAttribute="trailing" id="6HH-gP-ajt"/>
+                                        <constraint firstItem="JVw-ye-TWr" firstAttribute="top" secondItem="4J4-CL-kUL" secondAttribute="top" id="ACh-JB-EA0"/>
+                                        <constraint firstAttribute="bottom" secondItem="JVw-ye-TWr" secondAttribute="bottom" id="VxP-cF-6Jo"/>
+                                        <constraint firstItem="JVw-ye-TWr" firstAttribute="leading" secondItem="4J4-CL-kUL" secondAttribute="leading" id="cix-gY-mbz"/>
+                                        <constraint firstAttribute="height" constant="900" id="oHq-3R-sUm"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="4J4-CL-kUL" firstAttribute="leading" secondItem="pv4-g4-Jye" secondAttribute="leading" id="3Ci-1f-8wv"/>
+                                <constraint firstAttribute="trailing" secondItem="4J4-CL-kUL" secondAttribute="trailing" id="660-Ka-qx1"/>
+                                <constraint firstAttribute="bottom" secondItem="4J4-CL-kUL" secondAttribute="bottom" id="9ec-7s-Sbg"/>
+                                <constraint firstItem="4J4-CL-kUL" firstAttribute="top" secondItem="pv4-g4-Jye" secondAttribute="top" id="Fx4-uV-kmg"/>
+                                <constraint firstItem="4J4-CL-kUL" firstAttribute="width" secondItem="pv4-g4-Jye" secondAttribute="width" id="JAD-hl-lFI"/>
+                            </constraints>
+                        </scrollView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="pv4-g4-Jye" secondAttribute="trailing" id="Giq-gY-Ud1"/>
+                        <constraint firstItem="pv4-g4-Jye" firstAttribute="leading" secondItem="BoR-lB-CmJ" secondAttribute="leading" id="KgI-xF-VDT"/>
+                        <constraint firstAttribute="bottom" secondItem="pv4-g4-Jye" secondAttribute="bottom" id="qqo-e0-J5c"/>
+                        <constraint firstItem="pv4-g4-Jye" firstAttribute="top" secondItem="BoR-lB-CmJ" secondAttribute="top" id="t6W-bO-zpo"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="BoR-lB-CmJ" secondAttribute="trailing" id="5QT-Sq-RwJ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="FUW-ah-O0z" secondAttribute="trailing" id="8dX-ch-Ktq"/>
+                <constraint firstItem="FUW-ah-O0z" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="GMG-NT-m3P"/>
+                <constraint firstItem="FUW-ah-O0z" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="hnQ-WS-9Nw"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="top" secondItem="BoR-lB-CmJ" secondAttribute="top" id="ryb-mC-S8a"/>
+                <constraint firstItem="BoR-lB-CmJ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="tVW-4R-Fcq"/>
+                <constraint firstAttribute="bottom" secondItem="FUW-ah-O0z" secondAttribute="bottom" id="vqG-2T-htz"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="BoR-lB-CmJ" secondAttribute="bottom" id="zPl-98-O7s"/>
+            </constraints>
+            <point key="canvasLocation" x="40.458015267175568" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bgImg" width="750" height="1624"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
